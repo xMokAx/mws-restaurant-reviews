@@ -8,25 +8,25 @@ self.addEventListener("install", e => {
       .then(cache =>
         cache
           .addAll([
-            "/",
-            "/index.html",
-            "/restaurant.html",
+            "./",
+            "./index.html",
+            "./restaurant.html",
             "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css",
-            "/css/styles.css",
-            "/js/main.js",
-            "/js/dbhelper.js",
-            "/js/restaurant_info.js",
-            "/js/service_worker.js",
-            "img/1.jpg",
-            "img/2.jpg",
-            "img/3.jpg",
-            "img/4.jpg",
-            "img/5.jpg",
-            "img/6.jpg",
-            "img/7.jpg",
-            "img/8.jpg",
-            "img/9.jpg",
-            "img/10.jpg"
+            "./css/styles.css",
+            "./js/main.js",
+            "./js/dbhelper.js",
+            "./js/restaurant_info.js",
+            "./js/service_worker.js",
+            "./img/1.jpg",
+            "./img/2.jpg",
+            "./img/3.jpg",
+            "./img/4.jpg",
+            "./img/5.jpg",
+            "./img/6.jpg",
+            "./img/7.jpg",
+            "./img/8.jpg",
+            "./img/9.jpg",
+            "./img/10.jpg"
           ])
           .then(() => self.skipWaiting())
       )
