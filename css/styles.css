@@ -120,16 +120,15 @@ nav {
 
 nav h1 {
   margin: auto;
-  line-height: 8rem;
+  line-height: 7rem;
 }
 
 nav h1 a {
   color: #ccc;
   font-size: 2rem;
   font-weight: 200;
-  letter-spacing: 0.5rem;
   text-transform: uppercase;
-  padding: 1.6rem;
+  padding: 1.6rem 0;
 }
 
 nav h1 a:hover,
@@ -145,13 +144,14 @@ nav h1 a:focus {
 }
 
 #breadcrumb {
-  padding: 1rem 2rem 1rem;
   list-style: none;
+  padding-left: 0;
   background-color: #eee;
   font-size: 1.6rem;
   margin: 0;
-  height: 4rem;
-  line-height: 4rem;
+  height: 5.6rem;
+  line-height: 5.6rem;
+  text-align: center;
 }
 
 /* Display list items side by side */
@@ -162,7 +162,7 @@ nav h1 a:focus {
 
 /* Add a slash symbol (/) before/behind each list item */
 
-#breadcrumb li + li:before {
+#breadcrumb li+li:before {
   padding: 0.8rem;
   color: black;
   content: "/\00a0";
@@ -173,7 +173,7 @@ nav h1 a:focus {
 #breadcrumb li a {
   color: #1c6fab;
   text-decoration: none;
-  padding: 1.6rem;
+  padding: 1.6rem 0.8rem;
 }
 
 /* Add a color on mouse-over */
@@ -289,7 +289,7 @@ nav h1 a:focus {
   min-height: 24.8rem;
 }
 
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: #bd5500;
   font-family: Arial, sans-serif;
   font-size: 2rem;
@@ -487,6 +487,7 @@ nav h1 a:focus {
   }
   nav h1 a {
     font-size: 3.2rem;
+    letter-spacing: 0.5rem;
   }
 }
 
